@@ -1,3 +1,6 @@
 dependency_overrides:
-  isar: 
-    path: ../isar
+  isar:
+    git:
+      url: git@github.com:Digitalchemy/flutter_isar.git
+      path: packages/isar
+      ref: agp_8_compat
